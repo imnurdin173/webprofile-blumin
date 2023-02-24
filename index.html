@@ -8,13 +8,13 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
-    <meta name="description" content="Imam Nurdin's Profile">
+    <title>Imam Nurdin</title>
+    <meta name="description" content="Imam Nurdin's Profile, just doing some design practice">
+    <meta name="keywords" content="Purwadhika,webdev">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Sans+Sundanese&display=swap"
         rel="stylesheet">
-    <!-- <link rel="stylesheet" href=""> -->
     <style>
         html {
             margin: 0;
@@ -32,7 +32,7 @@
         }
 
         .dr {
-            position: absolute;
+            position: fixed;
             margin: 0;
             top: 0;
             left: 0;
@@ -105,7 +105,7 @@
             border: 1px solid #fff;
             border-radius: 7px;
             padding: 0;
-            margin: 0 10px;
+            margin: 7px 10px;
             transition: 0.5s;
             background: rgba(0, 0, 0, 0);
         }
@@ -146,6 +146,18 @@
             background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
         }
 
+        .pint {
+            background: linear-gradient(0deg, rgba(106, 2, 18, 1) 0%, rgba(230, 0, 35, 1) 54%);
+        }
+
+        .behance {
+            background: linear-gradient(0deg, rgba(3, 48, 130, 1) 0%, rgba(23, 105, 255, 1) 54%);
+        }
+
+        .dribble {
+            background: linear-gradient(0deg, rgba(149, 20, 70, 1) 0%, rgba(234, 76, 137, 1) 54%);
+        }
+
         svg {
             width: 90%;
             height: 90%;
@@ -168,7 +180,11 @@
             margin-top: -25px;
         }
 
-        @media screen and (max-width:680px) {
+        @media screen and (max-width:480px) {
+            #welcome {
+                margin-top: 80px;
+            }
+
             #welcome>h1 {
                 text-align: center;
                 font-size: 38px;
@@ -199,6 +215,10 @@
         }
 
         @media screen and (min-width:481px) and (max-width:768px) {
+            #welcome {
+                margin-top: 100px;
+            }
+
             #welcome>h1 {
                 text-align: center;
                 font-size: 52px;
@@ -213,9 +233,10 @@
                 margin-top: 20px;
                 /* margin-left: 350px; */
             }
+
             #sosmed {
                 margin-top: 50px;
-                width: 40%;
+                width: 60%;
             }
 
             #sosmed .box {
@@ -242,9 +263,10 @@
                 margin-top: 20px;
                 /* margin-left: 350px; */
             }
+
             #sosmed {
                 margin-top: 50px;
-                width: 30%;
+                width: 50%;
             }
 
             #sosmed .box {
@@ -260,15 +282,15 @@
 
 <body>
     <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser, JUST REMOVE YOUR F*cKING D*CK & Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    <div class="dr"></div>
+    <div class="dr" alt="this background is not mine yak"></div>
     <div class="container">
         <div id="welcome">
             <h1 class="typewrite" data-period="2000" data-type='["Sampurasun","Saya Imam Nurdin","ᮄᮙᮙ᮪ ᮔᮥᮁᮓᮤᮔ᮪" ]'>
                 <span class="wrap"></span>
             </h1>
-            <h4>Junior Web Designer</h4>
+            <h4>Junior UX Web Designer</h4>
         </div>
         <div id="sosmed">
             <a href="https://github.com/imnurdin173" target="_blank">
@@ -309,6 +331,48 @@
                     </div>
                     <div class="sosmed-name">
                         <span>@immnurdin_</span>
+                    </div>
+                </div>
+            </a>
+            <a href="https://id.pinterest.com/imnurdin173/" target="_blank">
+                <div class="box">
+                    <div class="icon pint">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                            <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                            <path
+                                d="M496 256c0 137-111 248-248 248-25.6 0-50.2-3.9-73.4-11.1 10.1-16.5 25.2-43.5 30.8-65 3-11.6 15.4-59 15.4-59 8.1 15.4 31.7 28.5 56.8 28.5 74.8 0 128.7-68.8 128.7-154.3 0-81.9-66.9-143.2-152.9-143.2-107 0-163.9 71.8-163.9 150.1 0 36.4 19.4 81.7 50.3 96.1 4.7 2.2 7.2 1.2 8.3-3.3.8-3.4 5-20.3 6.9-28.1.6-2.5.3-4.7-1.7-7.1-10.1-12.5-18.3-35.3-18.3-56.6 0-54.7 41.4-107.6 112-107.6 60.9 0 103.6 41.5 103.6 100.9 0 67.1-33.9 113.6-78 113.6-24.3 0-42.6-20.1-36.7-44.8 7-29.5 20.5-61.3 20.5-82.6 0-19-10.2-34.9-31.4-34.9-24.9 0-44.9 25.7-44.9 60.2 0 22 7.4 36.8 7.4 36.8s-24.5 103.8-29 123.2c-5 21.4-3 51.6-.9 71.2C65.4 450.9 0 361.1 0 256 0 119 111 8 248 8s248 111 248 248z" />
+                        </svg>
+                    </div>
+                    <div class="sosmed-name">
+                        <span>imnurdin173</span>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.behance.net/imnurdin173" target="_blank">
+                <div class="box">
+                    <div class="icon behance">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                            <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                            <path
+                                d="M232 237.2c31.8-15.2 48.4-38.2 48.4-74 0-70.6-52.6-87.8-113.3-87.8H0v354.4h171.8c64.4 0 124.9-30.9 124.9-102.9 0-44.5-21.1-77.4-64.7-89.7zM77.9 135.9H151c28.1 0 53.4 7.9 53.4 40.5 0 30.1-19.7 42.2-47.5 42.2h-79v-82.7zm83.3 233.7H77.9V272h84.9c34.3 0 56 14.3 56 50.6 0 35.8-25.9 47-57.6 47zm358.5-240.7H376V94h143.7v34.9zM576 305.2c0-75.9-44.4-139.2-124.9-139.2-78.2 0-131.3 58.8-131.3 135.8 0 79.9 50.3 134.7 131.3 134.7 61.3 0 101-27.6 120.1-86.3H509c-6.7 21.9-34.3 33.5-55.7 33.5-41.3 0-63-24.2-63-65.3h185.1c.3-4.2.6-8.7.6-13.2zM390.4 274c2.3-33.7 24.7-54.8 58.5-54.8 35.4 0 53.2 20.8 56.2 54.8H390.4z" />
+                        </svg>
+                    </div>
+                    <div class="sosmed-name">
+                        <span>imnurdin173</span>
+                    </div>
+                </div>
+            </a>
+            <a href="https://dribbble.com/imnurdin173" target="_blank">
+                <div class="box">
+                    <div class="icon dribble">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                            <path
+                                d="M256 8C119.252 8 8 119.252 8 256s111.252 248 248 248 248-111.252 248-248S392.748 8 256 8zm163.97 114.366c29.503 36.046 47.369 81.957 47.835 131.955-6.984-1.477-77.018-15.682-147.502-6.818-5.752-14.041-11.181-26.393-18.617-41.614 78.321-31.977 113.818-77.482 118.284-83.523zM396.421 97.87c-3.81 5.427-35.697 48.286-111.021 76.519-34.712-63.776-73.185-116.168-79.04-124.008 67.176-16.193 137.966 1.27 190.061 47.489zm-230.48-33.25c5.585 7.659 43.438 60.116 78.537 122.509-99.087 26.313-186.36 25.934-195.834 25.809C62.38 147.205 106.678 92.573 165.941 64.62zM44.17 256.323c0-2.166.043-4.322.108-6.473 9.268.19 111.92 1.513 217.706-30.146 6.064 11.868 11.857 23.915 17.174 35.949-76.599 21.575-146.194 83.527-180.531 142.306C64.794 360.405 44.17 310.73 44.17 256.323zm81.807 167.113c22.127-45.233 82.178-103.622 167.579-132.756 29.74 77.283 42.039 142.053 45.189 160.638-68.112 29.013-150.015 21.053-212.768-27.882zm248.38 8.489c-2.171-12.886-13.446-74.897-41.152-151.033 66.38-10.626 124.7 6.768 131.947 9.055-9.442 58.941-43.273 109.844-90.795 141.978z" />
+                        </svg>
+                    </div>
+                    <div class="sosmed-name">
+                        <span>imnurdin173</span>
                     </div>
                 </div>
             </a>
